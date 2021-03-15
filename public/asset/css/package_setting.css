@@ -1,0 +1,51 @@
+.select2-selection__placeholder {
+    font-size: 12px;
+}
+input.select2-search__field::placeholder {
+    font-size: 12px;
+}
+.package-item {
+    position: relative;
+}
+.package-item .close {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+    font-size: 14px;
+    padding: 15px;
+    z-index: 1;
+}
+.btn.btn-add-item {
+    width: 100%;
+    border: 2px dotted #e0e0e0;
+    border-radius: 5px;
+    color: #bdc3c7;
+    padding: 13px 15px;
+    font-weight: 600;
+    font-size: 12px;
+}
+.btn.btn-add-item:hover {
+    background-color: #4ea5e0;
+    border-color: transparent;
+    color: #ffffff;
+}
+.close {
+    cursor: pointer;
+}
+.card .card-body .form-group label {
+    font-size: 14px;
+    font-weight: bold;
+}
+.footer-action {
+    font-size: 14px;
+    font-weight: normal;
+}
+.footer-action label {
+    margin-bottom: 0px;
+}
+.pk-cus {
+    position: relative;
+}
+.package-item .pk-cus .close {
+    right: -10px;
+}

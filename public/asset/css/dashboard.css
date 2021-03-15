@@ -1,0 +1,100 @@
+@media(max-width: 767px) {
+    body {
+        font-size: 12px;
+    }
+}
+.widget-chart {
+    overflow: hidden;
+}
+.widget-chart .chart-area {
+    width: 100%;
+    overflow: auto;
+}
+.widget-chart .chart-area .chart-block {
+    min-width: 460px;
+}
+.widget-chart .chart-area .chart-block.view-30day {
+    min-width: 1000px;
+}
+.widget-chart .chart-area .chart-block.chart-horizontal {
+    min-width: 500px;
+}
+span.main-title {
+    color: #FF6C60;
+    font-weight: bold;
+    font-size: 14px;
+}
+span.des-title {
+    font-size: 12px;
+    color: #7e8c8d;
+    font-weight: bold;
+}
+.card-title .icon {
+    font-size: 16px;
+    color: #FF6C60;
+}
+.photo img {
+    margin: 10px auto;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%!important;
+}
+.channel-name {
+    text-align: center;
+}
+table.creator-attributes {
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+table.creator-attributes tr td {
+    border-top: 1px solid #999;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+table.creator-attributes td.top {
+    border-top: none;
+}
+table.creator-attributes td.title {
+    width: 150px;
+    min-width: 125px;
+    text-align: left;
+}
+table.creator-attributes td.value {
+    overflow-wrap: anywhere;
+    text-align: right;
+    max-width: 450px;
+}
+.img-channel {
+    width: 130px;
+    border-radius: 50%;
+}
+.small-box {
+    margin-bottom: 10px;
+}
+.small-box .icon i.bg-icon {
+    top: 8px;
+}
+.card .card-body {
+    padding: 15px;
+}
+.card .card-body .box-tags {
+    display: inline-block;
+    margin: 10px 5px 0px 5px;
+    padding: 5px 10px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.card-body .tab-pane {
+    position: relative;
+}
+.sk-table-top-video {
+    font-size: 13px;
+}
+div.not-data {
+    text-align: center;
+    width: 90%;
+    margin: 0 auto;
+    background-color: #f1f4f7;
+    padding: 20px 0px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}

@@ -1,0 +1,62 @@
+.content-wrapper {
+    background-image: url("../images/img-401.png");
+    background-size: cover;
+}
+.content-401{
+    position: relative;
+}
+.btn-gg-wallpaper {
+    border: 1px solid transparent;
+    background: #4285f4;
+    color: #fff;
+    display: inline-block;
+    cursor: pointer;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,.25);
+}
+.btn-gg-wallpaper .img {
+    display: inline-flex;
+    padding: 15px;
+    background: #fff;
+}
+.btn-gg-wallpaper .text {
+    font-size: 16px;
+    line-height: 48px;
+    font-family: Roboto,arial,sans-serif;
+    font-weight: 500;
+    letter-spacing: .21px;
+    margin-left: 22px;
+    margin-right: 22px;
+    vertical-align: top;
+}
+.img-401{
+	background-size: contain;
+	margin: auto;
+	width: 100%;
+}
+.message-for-creator{
+	position: absolute;
+    width: 500px;
+    height: 200px;
+    top: 50px;
+    left: 0;
+    right: 0;
+    margin: auto;
+    background-color: #fff;
+    border: 1px solid black;
+    word-break: break-all;
+}
+.caution-for-creator{
+	text-align: center;
+    padding: 17px 30px 0;
+    margin: 20px 0;
+}
+.btn-wrapper {
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+@media (max-width: 575px) {
+    .message-for-creator {
+        max-width: 320px;
+    }
+}

@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'cinzel-regular';
+    src: url('../fonts/cinzel-regular.otf') format('opentype');
+}
+@media only screen and (max-width: 768px) {
+    .title-video{
+        font-size: 13px;
+        text-align: start !important;
+        max-width: 300px;
+        min-width: 250px;
+        white-space: normal; 
+    }
+    .date-video{
+        font-size: 13px;
+    }
+    .view-video{
+        font-size: 13px;
+    }
+}
+.img-video{
+    width:110px;
+    height:60px;
+    background-size: cover;
+    margin: 0 auto;
+}
+.title-video{
+    text-align: center;
+    max-width: 300px;
+    min-width: 250px;
+    white-space: normal; 
+    font-size: 14px;
+}
+.date-video{
+    font-size: 14px;
+}
+.view-video{
+    font-size: 14px;
+}
+.table th{
+    border-bottom: 0px !important;
+}
+.number-rank{
+    font-family: cinzel-regular;
+    color: #9497AD;
+    font-weight: bold;
+    font-size: 20px;
+}

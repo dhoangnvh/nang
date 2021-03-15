@@ -1,0 +1,119 @@
+.sidebar .user-panel {
+    align-items: center;
+    padding: .5rem .5rem;
+}
+.sidebar .user-panel img {
+    height: auto;
+    width: 3.1rem;
+}
+.sidebar .user-panel, .user-panel .info {
+    white-space: unset;
+}
+.brand-link {
+    color: #ffffff;
+}
+.sk-sidebar {
+    background: #2A3F54;
+}
+.sk-sidebar .sidebar {
+    padding: 0;
+}
+.sk-sidebar .sidebar a {
+    color: #ffffff;
+}
+.sidebar .nav-pills > .nav-item > .nav-link {
+    border-radius: 0;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.sk-sidebar .nav-sidebar .nav-item .nav-link {
+    display: flex;
+    justify-items: center;
+}
+.sk-sidebar .nav-sidebar .nav-item .nav-link .fa-angle-left {
+    top: 15px;
+}
+.sidebar .nav-pills .nav-item.active, .nav-pills >.nav-item.active {
+    border-right: 5px solid #1ABB9C;
+    background: #169F85;
+}
+.sidebar .nav-pills .nav-treeview >.nav-item.active {
+    border-right: 0px;
+}
+.sidebar .nav-pills .nav-link {
+    color: #ffffff;
+}
+/* .sidebar p {
+    white-space: normal;
+} */
+.sidebar .nav-pills .nav-link:not(.active):hover {
+    color: #ffffff;
+
+}
+.sidebar .has-treeview.menu-open {
+    border-right: 5px solid #1ABB9C;
+}
+.sidebar .has-treeview.menu-open > .nav-link:not(.active) {
+    border-radius: 0;
+    text-shadow: rgba(0,0,0,.25) 0 -1px 0;
+    background: linear-gradient(#334556,#2C4257),#2A3F54;
+    box-shadow: rgba(0,0,0,.25) 0 1px 0, inset rgba(255,255,255,.16) 0 1px 0;
+}
+.sidebar .has-treeview .nav-treeview .nav-item {
+    position: relative;
+    padding-left: 36px;
+}
+.sidebar .has-treeview .nav-treeview .nav-item .nav-link {
+    margin-bottom: 0;
+    font-size: 12px;
+}
+.sidebar .has-treeview .nav-treeview .nav-item:not(.active):hover {
+    background-color: rgba(255,255,255,.06) !important;
+}
+.sidebar .has-treeview .nav-treeview .nav-item::before {
+    background: #425668;
+    bottom: auto;
+    content: "";
+    height: 8px;
+    left: 23px;
+    margin-top: 15px;
+    position: absolute;
+    right: auto;
+    width: 8px;
+    z-index: 1;
+    border-radius: 50%;
+}
+.sidebar .has-treeview .nav-treeview .nav-item::after {
+    border-left: 1px solid #425668;
+    bottom: 0;
+    content: "";
+    left: 27px;
+    position: absolute;
+    top: 0;
+}
+.sidebar .nav-sidebar .nav-item>.nav-link {
+    margin-bottom: .3rem;
+    font-size: 13px;
+}
+.sidebar::-webkit-scrollbar {
+    width: 10px;
+}
+/* Track */
+.sidebar::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+/* Handle */
+.sidebar::-webkit-scrollbar-thumb {
+    background: #888;
+}
+
+/* Handle on hover */
+.sidebar::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}
+.brand-link .brand-image {
+    margin-left: 0px;
+    max-height: 70px;
+    border-radius: 10% !important;
+}

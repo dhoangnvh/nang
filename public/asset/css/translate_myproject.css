@@ -1,0 +1,119 @@
+.card-header > .card-tools {
+    float: none;
+}
+.content .container .card-edit{
+    background-color: #f5f6f9;
+    box-shadow: none;
+    margin-bottom: 0;
+}
+a{
+    color:rgba(0, 0, 0, 0.6);
+}
+a:hover{
+    color: rgba(0, 0, 0, 0.6);
+}
+.create-translate{
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.create-translate .img-create{
+    background-size: cover;
+    margin: 0 auto 10px auto;
+}
+.img {
+    width: 50%;
+    max-width: 300px;
+}
+.img img {
+    width: 100%;
+}
+.info-video {
+    padding-left: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: calc(50% - 15px);
+    font-size: 13px;
+}
+@media (max-width: 768px) {
+    .project {
+        flex-wrap: wrap;
+    }
+    .img {
+        width: 100%;
+        max-width: unset;
+    }
+    .info-video {
+        padding: 8px 0px;
+    }
+    .info-video div {
+        padding-bottom: 2px;
+    }
+}
+.info-video .title {
+    font-weight: bold;
+}
+.info-video .date {
+    color: #00000069;
+    font-size: 14px;
+}
+.number-language, .number-video {
+    padding-right: 8px;
+}
+.info-video .download {
+    font-size: 12px;
+    justify-content: space-around;
+    align-items: center;
+    color: #00000069;
+}
+.border-download {
+    height: 24px;
+    width: 1px;
+    border-left: 1px solid #565656;
+}
+.detail-project {
+    display: none;
+}
+.detail-project .detail {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 13px;
+    padding-left: 20px;
+    padding-right: 12px;
+    color: #00000069;
+    text-align: right;
+}
+.toggle-data {
+    cursor: pointer;
+}
+.download .caption, .download .title-depsc {
+    cursor: pointer;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.project {
+    display: flex;
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0.125), 0 1px 3px rgba(0, 0, 0, 0.2);
+    padding: 10px;
+    margin-bottom: 15px;
+}
+.project .info-video .title {
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.card-tools .nav-item .nav-link {
+    min-width: 80px;
+}
+.card-tools .nav-item .nav-link.active {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+.card-tools .nav-item:last-child .nav-link {
+    margin-left: 10px;
+}

@@ -1,0 +1,36 @@
+.container{
+    padding-top: 15px;
+}
+label{
+    font-size: 14px;
+    font-weight: 100 !important;
+}
+.not-null::after{
+    color: #d64830;
+    content: "*";
+    font-size: 130%;
+    line-height: 1px;
+}
+.check{
+    color:green;
+}
+.input-width{
+    max-width: 250px;
+    margin-right: 10px;
+}
+.btn{
+    font-size: 14px;
+}
+.txt-cancel a {
+    text-decoration: underline;
+}
+@media (max-width: 576px) {
+    .mobile-2{
+        margin-bottom: 0.5rem;
+    }
+}
+@media (max-width: 320px) {
+    .input-width {
+        max-width: 200px;
+    }
+}

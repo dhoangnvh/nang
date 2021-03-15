@@ -1,0 +1,29 @@
+.table tbody td {
+    vertical-align: middle;
+}
+.select2-selection__placeholder {
+    font-size: 12px;
+}
+.data-toggle {
+    font-size: 13px;
+}
+.data-toggle img {
+    height: 50px;
+}
+/* .table .data-toggle td {
+    vertical-align: top;
+} */
+.table .data-toggle .lang-trans {
+    padding: 5px 0px;
+    min-height: 29px;
+}
+.project-name {
+    width: 200px;
+    max-width: 200px;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.video-trans-data {
+    height: 19px;
+}

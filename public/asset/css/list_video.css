@@ -1,0 +1,23 @@
+#sk-daterange {
+    max-width: 300px;
+}
+.title-limit, .description-limit {
+    color: #b7b2b2;
+}
+.control-balloon-selector ul li.unpaid.active {
+    background: #f65656;
+}
+.billing-checkbox {
+    height: 13px !important;
+    width: 13px;
+}
+.sk-time {
+    position: relative;
+}
+.sk-time input {
+    background-color: #ffffff !important;
+}
+.sk-time .fas {
+    position: absolute;
+    right: 10px;
+}

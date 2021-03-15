@@ -1,0 +1,53 @@
+.card-footer::after {
+    content: unset;
+}
+.bg-img {
+    width: 100%;
+    max-width: 300px
+}
+@font-face {
+    font-family: 'cinzel-regular';
+    src: url('../fonts/cinzel-regular.otf') format('opentype');
+}
+.item-history {
+    margin-bottom: 20px;
+}
+.item-history p {
+    margin-bottom: .25rem;
+}
+.text-large {
+    font-size: 21px;
+}
+.text-cinzel {
+    font-family: cinzel-regular;    
+}
+.chart-div {
+    height: 400px;
+    margin: 0 auto;
+}
+@media (max-width: 575px) {
+    .chart-div {
+        margin-left: -24px;
+    }
+}
+.main-title {
+    color: #FF6C60;
+    font-weight: bold;
+}
+.timeline-item .timeline-body {
+    position: relative;
+}
+.timeline-item .timeline-body::after {
+    content: "";
+    position: absolute;
+    left: 1px;
+    top: 8px;
+    border: 7px solid transparent;
+    border-color: transparent transparent #fff #fff;
+    transform-origin: 0 0;
+    transform: rotate(45deg);
+    box-shadow: -3px 3px 3px 0 rgba(0, 0, 0, 0.125);
+}
+.timeline > div > .timeline-item > .timeline-body.sk-img > img {
+    margin: 0;
+}

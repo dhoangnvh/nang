@@ -1,0 +1,37 @@
+.container-fluid {
+    font-size: 14px;
+}
+.video-item img, .video-item table {
+    width: 100%;
+}
+.video-item .languages {
+    margin-top: 15px;
+}
+.main-title {
+    color: #FF6C60;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.container-fluid .action label {
+    font-weight: normal;
+}
+.project-detail-title {
+    width: 75px;
+    padding-right: 5px;
+    font-size: 12px;
+    text-align: left;
+}
+.project-detail-time {
+    width: 82px;
+    font-size: 12px;
+    text-align: center;
+}
+@media (max-width: 991px) {
+    .project-detail-title, .project-detail-time {
+        width: 80px;
+        text-align: left;
+    }
+}
+.languages .form-control {
+    font-size: 14px;
+}

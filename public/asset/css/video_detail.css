@@ -1,0 +1,13 @@
+.img{
+    width: 100%;
+}
+.fa-info, .fa-clock{
+    color: #FF6C60;
+}
+.title{
+    color: #FF6C60;
+    font-weight: bold;
+}
+.title-video {
+    max-width: 900px;
+}

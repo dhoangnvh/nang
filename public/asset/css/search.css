@@ -1,0 +1,19 @@
+.card{
+    max-width: 500px !important;
+    margin: 5% auto;
+    max-width: 100%;
+}
+.card-header{
+    text-align: center;
+}
+.title{
+    font-weight: 300;
+    font-size: 18px;
+}
+.search-input{
+    display: flex;
+    align-items: center;
+}
+.search-input label{
+    font-weight: 100 !important;
+}

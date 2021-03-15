@@ -1,0 +1,117 @@
+.time-select, .order-select {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    background: #969494;
+    border: 1px solid #FFF;
+    border-radius: 3px;
+    color: #FFF;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+}
+.order-select .icon {
+    position: absolute;
+    right: 15px;
+    top: 8px;
+}
+.time-select.selected {
+    background: #52bb50;
+}
+.order-select.selected {
+    background: #e03b3b;
+}
+.channel-items .channel {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.channel-items .channel .logo img {
+    width: 88px;
+}
+.channel-items .channel .description {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-grow: 1;
+    padding-left: 10px;
+}
+.channel-items .channel .description .name {
+    font-weight: bold;
+    font-size: 1rem;
+}
+li.page-item {
+    width: unset;
+}
+.sub-range {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.sub-range ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0;
+}
+.sub-range li {
+    display: inline-block;
+    padding: 10px 10px;
+    border-bottom: 3px solid;
+    border-color: transparent;
+    cursor: pointer;
+}
+.sub-range li.active {
+    border-color: #2196F3;
+}
+.logo {
+    position: relative;
+}
+.rank-index {
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    background: #b6b6b6;
+    text-align: center;
+    color: #fff;
+    padding: 0 10px;
+    width: auto;
+    border-radius: 2px;
+}
+.rank-index.rank-index-circle {
+    border-radius: 50%;
+    width: 25px;
+    padding: 0;
+}
+.rank-index.rank-1 {
+    background-color: #B4A345;
+}
+.rank-index.rank-2 {
+    background-color: #9497AD;
+}
+.rank-index.rank-3 {
+    background-color: #67542A;
+}
+/* .rank-index.rank-3 {
+    background-color: #c947df;
+}
+.rank-index.rank-4 {
+    background-color: #3f51b5;
+} */
+.rank-label {
+    font-size: 14px;
+}
+.rank-label .label {
+    margin-right: 50px;
+}
+.rank-label .statistic {
+    color: #F44336;
+}
+.statisticdiv {
+    font-size: 14px;
+    color: #F44336;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.btn.add-group-category {
+    font-size: 11px;
+}

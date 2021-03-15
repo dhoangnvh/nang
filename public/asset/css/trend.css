@@ -1,0 +1,133 @@
+@font-face {
+    font-family: 'cinzel-regular';
+    src: url('../fonts/cinzel-regular.otf') format('opentype');
+}
+.trend-item-title {
+    max-width: 900px;
+}
+@media only screen and (max-width: 767px) {
+    .title-moblie{
+        display: flex;
+        align-items: center;
+    }
+    .title-moblie .div-img{
+        height: 30px;
+        width: 30px;
+        border-radius: 50%;
+        margin-right: 5px;
+        background-size: cover;
+        background-position: center;
+    }
+    .trend-item-title-mobile{
+        width: calc(100% - 30px);
+    }
+    .trend-item-title{
+        display: none;
+    }
+    .local-view{
+        display: inline-block;
+    }
+    .global-view{
+        display: inline-block;
+    }
+    .trend-content .ratio-up-mobile{
+        font-size: 13px !important;
+        font-family: "Open Sans",sans-serif;
+        color: black;
+        font-weight: 100 !important;
+        display: inline-block;
+    }
+}
+@media only screen and (min-width: 720px) {
+    .title-moblie{
+        display: none;
+    }
+    .title-moblie img{
+        display: none;
+    }
+    .title-moblie .trend-item-title-mobile{
+        display: none;
+    }
+    .trend-item-title{
+        display: block;
+    }
+    .local-view{
+        display: inline-block;
+    }
+    .global-view{
+        display: inline-block;
+    }
+    .trend-content .ratio-up-mobile{
+        display: none;
+    }
+}
+.global-view::before{
+    content: "•";
+    margin: 0 2px 0 -2px;
+}
+/* .input-group{
+    width: 253px !important;
+} */
+.trend-list{
+    display: flex;
+    flex-direction: column;
+}
+.card-header{
+    border: 0px !important;
+}
+.trend-list .trend-list-item .trend-item-number{
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+}
+.trend-list .trend-list-item .trend-item-number .number{
+    font-size: 22px;
+    font-family: cinzel-regular;
+    font-weight: bold;
+    font-size: 32px;
+    color: #9497AD;
+}
+.trend-list .trend-list-item .trend-item-number .ratio-up{
+    font-size: 14px;
+    font-family: nomal;
+    color: black;
+    font-weight: 100;
+    text-align: center;
+}
+.trend-item-img{
+    display: flex;
+    align-items: center;
+}
+.trend-item-img img{
+    width: 100%;
+}
+.trend-item-statistical{
+    font-size: 13px;
+}
+.up-down{
+    color: green;
+    margin-right: 3px;
+}
+.trend-item-create{
+    color:#919090;
+    font-size: 14px;
+}
+.create-time{
+    display: inline-block;
+}
+.comment-number{
+    display: inline-block;
+}
+.comment-number::before{
+    content: "•";
+    margin: 0 2px 0 -2px;
+}
+.trend-item-content {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+}
+.trend-content {
+    margin-bottom: 0.5rem;
+}

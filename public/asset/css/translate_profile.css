@@ -1,0 +1,23 @@
+.label-title {
+    font-weight: 700;
+}
+.block-form {
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 26px 54px;
+    height: 100%;
+    font-size: 14px;
+}
+.block-form .depscription {
+    font-size: 12px;
+    color: #8e8e8e;
+}
+.block-form .form-control {
+    font-size: 14px;
+}
+.btn.update-profile {
+    padding-left: 100px;
+    padding-right: 100px;
+    max-width: 100%;
+    margin-top: 40px;
+}

@@ -1,0 +1,113 @@
+.table-translate {
+	display: flex;
+	white-space: nowrap;
+	padding: 20px;
+	background: #FFF;
+	border-radius: 5px;
+}
+.table-translate table {
+	border-spacing: 0 5px;
+    border-collapse: separate;
+}
+.table-translate table thead th {
+	border-bottom: none;
+    padding-bottom: 15px;
+}
+.table-translate table th, .table-translate table td {
+	padding: 5px 12px;
+	min-width: 100px;
+	max-width: 125px;
+	text-align: center;
+	overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.table-translate tbody td {
+	background-color: #e8e8e8;
+}
+.translate-mess tbody tr td{
+    height:35px;
+}
+.translate-key tbody tr td{
+    height:35px;
+}
+.translate-area {
+	overflow: auto;
+}
+.column-1 tbody td {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+}
+.column-3 tbody td {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.column-3 i {
+	cursor: pointer;
+}
+
+.wordbook {
+	font-size: 14px;
+	padding: 20px;
+	background: #ffffff;
+	border-radius: 5px;
+}
+.switch-book {
+	font-size: 12px;
+}
+.slt-lang-add {
+	display: flex;
+	flex-wrap: wrap;
+}
+.slt-lang-add .btn-lang {
+	border-radius: 20px;
+    margin-right: 16px;
+    margin-bottom: 16px;
+    border: 1px solid;
+    padding: 5px 24px;
+    text-align: center;
+	font-size: 12px;
+	cursor: pointer;
+	color: #878688;
+}
+.slt-lang-add .btn-lang.active {
+	color: #ffffff;
+    background-color: #5e1ffe;
+}
+.save-lang {
+    text-align: center;
+    padding: 8px;
+	font-weight: bold;
+	border-radius: 5px;
+}
+.btn-book-add {
+	padding: 8px 23px;
+	font-size: 12px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	cursor: pointer;
+}
+.title-book input {
+	font-size: 16px;
+    /* border: none; */
+    font-weight: bold;
+    /* max-width: 175px; */
+}
+.list-book {
+	margin-bottom: 16px;
+	margin-top: 16px;
+}
+.dropdown-toggle {
+	font-weight: bold;
+	cursor: pointer;
+}
+.fa-pencil-alt:hover{
+    cursor: pointer;
+}
+.bg-color{
+    background-color: #e8e8e8;
+}
+.p-custom{
+    padding:5px 12px;
+    font-size:13px;
+}

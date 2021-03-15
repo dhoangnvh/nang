@@ -1,0 +1,104 @@
+.prev, .next {
+    cursor: pointer;
+}
+.label-title {
+    margin-bottom: 10px;
+}
+.sk-bg-black {
+    background: #000000;
+    color: #ffffff;
+    opacity: 0.8;
+}
+.sk-bg-white {
+    background: #ffffff;
+    color: #000000;
+    opacity: 0.8;
+}
+.box-point {
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 13px;
+}
+.box-point .total-point {
+    font-size: 34px;
+    border-bottom: 1px dashed #ffffff;
+    text-align: center;
+    padding: 0px 10px 10px 10px;
+}
+.box-point .content {
+    padding: 15px 15px 0px 15px;
+}
+.box-point .content div {
+    margin-bottom: 5px;
+}
+.box-monthly {
+    padding: 15px;
+    border-radius: 5px;
+    font-weight: 500;
+}
+.box-monthly .control {
+    font-size: 17px;
+    border-bottom: 1px dashed #000000;
+    text-align: center;
+    padding-bottom: 15px;
+}
+.box-monthly .content {
+    text-align: center;
+    margin-top: 15px;
+    min-height: 80px;
+}
+.box-history {
+    border-radius: 5px;
+    font-weight: bold;
+    position: relative;
+}
+.box-history .text {
+    padding: 30px;
+    border-right: 1px dashed #ffffff;
+    width: calc(100% - 60px);
+}
+.box-history .text .title {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box-history .text .depscription {
+    font-size: 13px;
+}
+.box-history .download {
+    text-align: center;
+    position: relative;
+    width: 60px;
+    cursor: pointer;
+}
+.box-history .download i {
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+}
+.table-payment {
+    padding: 10px 20px;
+    background-color: #ffffff;
+    border-radius: 5px;
+}
+.table.table-hover {
+    background: #fff;
+}
+.table thead th {
+    border-top: 0;
+    border-bottom: 1px solid #000000;
+}
+.box-history::before {
+    content: "";
+    position: absolute;
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+    background-color: #f4f6f9;
+    top: calc(50% - 7px);
+    left: -7px;
+}
+.modal .modal-title {
+    font-size: 18px;
+}

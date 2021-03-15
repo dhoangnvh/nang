@@ -1,0 +1,57 @@
+.cancel a{
+    font-size: 14px;
+    font-weight: 100 !important;
+}
+.custom-radio input{
+    max-width: 20px;
+}
+.btn-primary{
+    font-size: 14px;
+}
+.card .card-body form .d-flex .cancel label{
+    font-size: 14px;
+    font-weight: normal;
+    margin-bottom: 0px;
+}
+.card .card-body form .row .form-group label{
+    font-size: 14px;
+    font-weight: bold;
+}
+table tbody .rowlink:hover td{
+    cursor: pointer;
+}
+table tbody .rowlink:not(.nolink) td{
+    cursor: pointer;
+}
+.clickable-row {
+    cursor: pointer;
+}
+.translator.table td {
+    vertical-align: middle;
+}
+.search-name {
+    width: 100%;
+    max-width: 300px;
+}
+.search-name label {
+    width: 30px;
+}
+.user-search::placeholder {
+    font-size: 12px;
+    line-height: 50px;
+}
+.card-user .select2-container .select2-search--inline .select2-search__field {
+    margin-top: 8px;
+}
+
+@media (max-width: 576px) {
+    .count-user-status {
+        padding: 0;
+        margin-top: 10px;
+        justify-content: unset !important;
+    }
+    .count-user-status-trans {
+        padding: 0;
+        justify-content: unset !important;
+    }
+}

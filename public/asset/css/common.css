@@ -1,0 +1,234 @@
+/* body {
+    font-family: "ヒラギノ角ゴ Pro", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ヒラギノ角ゴ W3", "メイリオ", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", "Hiragino Kaku Gothic Pro", "ヒラギノ角ゴ Pro W3", "ヒラギノ角ゴ W3", "メイリオ", "Osaka", "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+} */
+.btn {
+    font-size: 14px;
+}
+.content-wrapper {
+    padding-bottom: 20px;
+}
+.main-footer {
+    font-size: 13px;
+    display: flex;
+    /* flex-direction: row-reverse; */
+}
+.sidebar-mini.sidebar-open .main-sidebar.sk-sidebar.elevation-4 {
+    width: 230px;
+}
+@media (min-width: 768px) {
+    .sidebar-mini.sidebar-open .main-header {
+        margin-left: 230px;
+    }
+}
+
+.main-header .icon-menu .nav-link {
+    padding-left: 7.5px;
+}
+.main-header .icon-menu i {
+    font-size: 26px;
+}
+.dropdown-menu.dropdown-user .dropdown-item {
+    padding: .5rem 1.25rem;
+}
+.dropdown-menu.dropdown-user .dropdown-item .img {
+    width: 30px;
+}
+.dropdown-menu.dropdown-user .dropdown-item span {
+    padding-left: 5px;
+}
+.sk-datatable thead th {
+    padding-right: 30px;
+    position: relative;
+    cursor: pointer;
+    font-size: 13px;
+}
+.sk-datatable thead th::after {
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    color: #cccccc;;
+    font-family: "Font Awesome 5 Free";
+}
+.sk-datatable thead th.desc::after {
+    content: "\f884";
+
+}
+.sk-datatable thead th.asc::after {
+    content: "\f161";
+}
+.sk-datatable thead [data-toggle="tooltip"] {
+    color: #4c4949;
+    font-size: 13px;
+    margin-left: 3px;
+}
+.sk-datatable .title-video {
+    min-width: 300px;
+    max-width: 400px;
+    white-space: normal;
+    font-size: 14px;
+}
+
+.sk-text-normal {
+    font-weight: normal;
+    font-size: 13px;
+}
+.content-header {
+    box-shadow: 0px 2px 3px -3px rgba(46,74,117,1);
+    margin-bottom: 10px;
+}
+.card-header > .card-tools {
+    margin-right: 0;
+}
+.card-tools .nav.nav-pills {
+    font-size: 12px;
+}
+.card-tools .nav-item .nav-link {
+    padding: 8px;
+}
+.card-tools .nav-item .nav-link.btn {
+    padding: 4px 8px;
+}
+.span.main-title {
+    font-size: 12px;
+}
+.sk-chart-300 {
+    height: 300px;
+    margin-left: -24px;
+}
+.sk-chart-400 {
+    height: 300px;
+    margin-left: -24px;
+}
+.sk-chart-500 {
+    height: 500px;
+    margin-left: -24px;
+}
+@media (max-width: 575px) {
+    .sk-chart-500 {
+        height: 650px;
+    }
+}
+.sk-question {
+    cursor: pointer;
+    color: #ec5447;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.table thead th {
+    font-size: 13px;
+}
+ul.pagination {
+    margin-bottom: 0;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.sk-slt-number {
+    display: inline-block;
+    width: auto;
+    vertical-align: middle;
+}
+.card-footer {
+    font-size: 13px;
+    color: #6c757d;
+    background: none;
+    border-top: 1px solid #CCC;
+}
+.card-footer::after {
+    content: unset;
+}
+li.page-item {
+    width: 40px;
+}
+.card-footer div:first-child {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 10px;
+}
+.card-footer div:nth-child(2) {
+    margin-bottom: 10px;
+}
+@media(max-width: 767px) {
+    .card-footer {
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    ul.pagination {
+        justify-content: center;
+    }
+}
+.form-inline .input-date{
+    min-width: 240px;
+    background-color: #ffffff;
+}
+.required {
+    position: relative;
+}
+.required::after{
+    color: #d64830;
+    content: "*";
+    font-size: 13px;
+    position: absolute;
+    top: 0;
+}
+.create button i{
+    color: #dbdbdb;
+    margin-right: 10px;
+}
+.create button:hover i{
+    color: #ffffff;
+}
+.is-admin {
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: green;
+}
+.fa-trash-alt{
+    color: #ccc;
+}
+.fa-trash-alt:hover{
+    color: #c63e26;
+}
+@media (max-width: 575px) {
+    .card-body .sk-datatable {
+        font-size: 13px;
+    }
+}
+/* toast */
+.sk-toast {
+    position: fixed;
+    top: 50px;
+    left: 50%;
+    z-index: 9999;
+    transform: translateX(-50%);
+    min-width: 300px;
+}
+.sk-toast:first-child {
+    z-index: 9990;
+}
+.background-white{
+    background-color:#fff !important;
+}
+.sk-label {
+    font-weight: bold;
+    font-size: 14px;
+}
+.sk-loading-full {
+    width: 100%;
+    height: 100vh;
+    position: fixed;
+    z-index: 999999;
+    left: 0;
+    top: 0;
+    background: #0000000f;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.convert-cursor:hover{
+    cursor: pointer;
+}
+.pagination .page-item.disabled {
+    cursor: no-drop;
+}
