@@ -7,15 +7,8 @@
         </a>
       </li>
     </ul>
-    {{-- @yield('item-header-menu') --}}
-    <ul class="navbar-nav">
-      <li class="nav-item icon-menu">
-        <a class="nav-link d-flex align-items-center" data-widget="pushmenu" href="#" role="button">
-          <i class="fab fa-youtube mr-1"></i>
-          サムネイル変更
-        </a>
-      </li>
-    </ul>
+    @yield('item-header-menu')
+    
     <ul class="navbar-nav ml-auto"></ul>
     <!-- Right navbar links -->
     <ul class="navbar-nav">
