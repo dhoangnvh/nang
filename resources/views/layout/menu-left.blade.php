@@ -34,12 +34,12 @@
             </a>
             <ul class="nav nav-treeview">
               <li class="nav-item">
-                <a href="#" class="nav-link" menu-context="/add">
+                <a href="{{ route('project.add') }}" class="nav-link" menu-context="/add">
                   <p>Thêm mới</p>
                 </a>
               </li>
               <li class="nav-item">
-                <a href="#" class="nav-link">
+                <a href="{{ route('project.index') }}" class="nav-link" menu-context="/edit">
                   <p>
                     Danh sách
                   </p>

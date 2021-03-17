@@ -3,8 +3,8 @@
 Dự án
 @endsection
 @section('css')
-  <link rel="stylesheet" href="asset/css/setting.css">
-  <link rel="stylesheet" href="asset/summernote/summernote-bs4.css">
+  {{-- <link rel="stylesheet" href="asset/css/setting.css"> --}}
+  {{-- <link rel="stylesheet" href="asset/summernote/summernote-bs4.css"> --}}
 @endsection
 @section('item-header-menu')
 <ul class="navbar-nav">
@@ -19,28 +19,29 @@ Dự án
 @section('content')
 <div class="container-fluid pt-3">
     <div class="card">
-        <form role="form">
+        <form role="form" method="POST" action="{{ route('project.store') }}" enctype="multipart/form-data">
+          @csrf
             <div class="card-body">
               <div class="form-group">
                 <label for="exampleInputEmail1">Tên dự án</label>
-                <input type="text" class="form-control">
+                <input type="text" class="form-control" name="name">
               </div>
               <div class="form-group">
                 <label for="exampleInputFile">Ảnh</label>
                 <div class="input-group">
                   <div class="custom-file">
-                    <input type="file" class="custom-file-input" id="exampleInputFile">
+                    <input type="file" class="custom-file-input" id="exampleInputFile" name="image">
                     <label class="custom-file-label" for="exampleInputFile">Choose file</label>
                   </div>
                 </div>
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Mô tả</label>
-                <textarea name="short-description" rows="5" class="form-control"></textarea>
+                <textarea name="description" rows="5" class="form-control"></textarea>
               </div>
               <div class="form-group">
                 <label for="exampleInputPassword1">Chi tiết</label>
-                <textarea name="description" rows="10" class="form-control textarea"></textarea>
+                <textarea name="content" id="content" rows="10" class="form-control textarea"></textarea>
               </div>
             </div>
             <!-- /.card-body -->
@@ -52,18 +53,23 @@ Dự án
     </div>
 </div>
 @endsection
-
+{{-- /ckfinder/core/connector/php/connector.php?command=QuickUpload&type=Files&responseType=json --}}
 @section('footer-js')
-<script src="asset/summernote/summernote-bs4.min.js"></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/26.0.0/classic/ckeditor.js"></script>
 <script>
   $(function () {
-    // Summernote
-    $('.textarea').summernote({
-      height: 300,   //set editable area's height
-      codemirror: { // codemirror options
-        theme: 'monokai'
-      }
-    });
+    ClassicEditor
+    .create( document.querySelector( '#content' ), {
+        ckfinder: {
+            uploadUrl: '/api/upload-img'
+        }
+    }  )
+    .then( editor => {
+        console.log( editor );
+    } )
+    .catch( error => {
+        console.error( error );
+    } );
   })
 </script>
 @endsection

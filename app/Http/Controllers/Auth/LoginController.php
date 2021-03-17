@@ -7,7 +7,6 @@ use App\Providers\RouteServiceProvider;
 use Illuminate\Foundation\Auth\AuthenticatesUsers;
 use Illuminate\Http\Request;
 use Carbon\Carbon;
-use App\Models\AccessLog;
 use Auth;
 use App\User;
 
@@ -69,14 +68,6 @@ class LoginController extends Controller
         $request->session()->regenerate();
 
         $this->clearLoginAttempts($request);
-        $accessLog = new AccessLog();
-        $accessLog->ip_address = $request->getClientIp();
-        $accessLog->user_id = Auth::id();
-        $accessLog->save();
-        if(Auth::user()->status == 1 || Auth::user()->status == 2){
-            Auth::logout();
-            return back()->with('message', 'このアカウントが解約されました。');
-        }
         return $this->authenticated($request, $this->guard()->user())
                 ?: redirect()->intended($this->redirectPath());
     }
