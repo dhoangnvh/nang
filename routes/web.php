@@ -22,3 +22,5 @@ Route::prefix('admin')->group(function () {
 
     Route::get('contact', 'ContactController@index')->name('contact.index');
 });
+
+Route::view('/', 'frontend.index');

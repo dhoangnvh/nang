@@ -6,6 +6,12 @@ body {
     background: #fff;
     line-height: 1.5em;
 }
+#menutop {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 9999;
+}
 .py-50 {
     padding-top: 50px;
     padding-bottom: 50px;
@@ -50,6 +56,9 @@ body {
 }
 
 /* slide */
+/* .custom1 {
+    margin-top: 111px;
+} */
 .custom1 .owl-nav {
     position: absolute;
     top: 50%;
@@ -145,6 +154,7 @@ body {
 /* content */
 .hp-content {
     background-color: #fafafa;
+    margin-top: 10px;
 }
 .hp-content .content1 {
     padding-top: 50px;
@@ -207,6 +217,7 @@ body {
 }
 .hp-content .content2 .description .rmore {
     color: #f26b35;
+    text-decoration: none;
 }
 /*  */
 .description3 {
@@ -271,7 +282,7 @@ body {
     font-size: 22px;
     line-height: 1.2em;
 }
-.footer .footer1 .content .btn-cont {
+.btn-cont {
     display: inline-block;
     padding: 0px 25px;
     font-size: 16px;
@@ -282,4 +293,45 @@ body {
     line-height: 33px;
     border-radius: 18px;
 }
-
+.footer2 {
+    background: #746c68;
+    margin-top: 5px;
+    color: #bfbcbc;
+}
+.footer-menu {
+    padding: 20px 0;
+    border-bottom: 1px solid #9a9492;
+}
+.footer-menu .menu-bot div {
+    color: #bfbcbc;
+    font-size: 18px;
+    padding: 0 15px;
+}
+.footer2 .title {
+    font-size: 18px;
+    font-weight: 700;
+    padding-bottom: 10px;
+}
+.footer2 .info {
+    font-size: 15px;
+}
+.footer2 ul.mnubot {
+    list-style: none;
+    padding: 0;
+}
+a.link-theme {
+    color: unset;
+    text-decoration: none;
+}
+a.link-theme:hover {
+    color: #f26522;
+}
+.bottom {
+    padding: 20px 0;
+    color: #bfbcbc;
+    background: #584e4a;
+}
+.social .link-theme {
+    padding: 0px 3px;
+    font-size: 24px;
+}
